@@ -44,7 +44,6 @@
     "url": "https://github.com/TryGhost/node-sqlite3.git"
   },
   "dependencies": {
-    "bindings": "^1.5.0",
     "node-addon-api": "^7.0.0",
     "prebuild-install": "^7.1.1",
     "tar": "^6.1.11"
