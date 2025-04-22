@@ -45,13 +45,11 @@
   },
   "dependencies": {
     "node-addon-api": "^7.0.0",
-    "prebuild-install": "^7.1.1",
     "tar": "^6.1.11"
   },
   "devDependencies": {
     "eslint": "8.56.0",
-    "mocha": "10.2.0",
-    "prebuild": "12.1.0"
+    "mocha": "10.2.0"
   },
   "peerDependencies": {
     "node-gyp": "8.x"
@@ -65,11 +63,8 @@
     "node-gyp": "8.x"
   },
   "scripts": {
-    "install": "prebuild-install -r napi || node-gyp rebuild",
-    "prebuild": "prebuild --runtime napi --all --verbose",
-    "rebuild": "node-gyp rebuild",
-    "upload": "prebuild --verbose --prerelease",
-    "test": "node test/support/createdb.js && mocha -R spec --timeout 480000"
+    "install": "node-gyp rebuild",
+    "rebuild": "node-gyp rebuild"
   },
   "license": "BSD-3-Clause",
   "keywords": [
