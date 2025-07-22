@@ -52,7 +52,7 @@
     "mocha": "10.2.0"
   },
   "peerDependencies": {
-    "node-gyp": "8.x"
+    "node-gyp": "9.x"
   },
   "peerDependenciesMeta": {
     "node-gyp": {
@@ -60,7 +60,7 @@
     }
   },
   "optionalDependencies": {
-    "node-gyp": "8.x"
+    "node-gyp": "9.x"
   },
   "scripts": {
     "install": "node-gyp rebuild",
